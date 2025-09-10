@@ -1,0 +1,23 @@
+responcive css refers to the use of cascading style sheet to create web pages
+/*style for screens than 600px */
+@media (max-width:600px) {
+  body {
+    font-size: 14px;
+}
+.continer {
+  flex-direction: column;
+}
+}
+.column{
+width:33.33%;
+float:left;
+}
+img{
+  max-width:100%;
+height:auto;
+}
+@container (min-width:400px) {
+.card-title {
+    font-size: 1.5rem;
+}
+}
